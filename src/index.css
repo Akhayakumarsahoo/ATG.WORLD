@@ -1,0 +1,17 @@
+html,
+body {
+  overflow-x: hidden;
+  scrollbar-width: none;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  background-image: url(hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 440px;
+  object-fit: cover;
+}

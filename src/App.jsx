@@ -1,15 +1,13 @@
 import Navbar from "./components/navbar/MainNavbar";
 import Hero from "./components/hero/Hero";
-import FilterNavbar from "./components/posts/FilterNavbar";
-import Posts from "./components/posts/Posts";
+import Content from "./components/contents/Content";
 
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
-      <FilterNavbar />
-      <Posts />
+      <Content />
     </>
   );
 }
